@@ -3,6 +3,7 @@ import { StudentList } from "./Components/StudentDataBase";
 import StudentCard from "./Components/StudentCard";
 import react, { useState } from "react";
 import CustomNavbar from "./Components/CustomNavbar";
+import { Outlet } from "react-router-dom";
 
 function App() {
   const [StudentState, SetStudentState] = useState(StudentList);
@@ -22,6 +23,7 @@ function App() {
           <StudentCard key={elt.id} StudentListNow={elt} />
         ))}
       </div>
+
     </div>
   );
 }

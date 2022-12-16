@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function CustomNavbar({ Fx }) {
   const handleChange = (e) => {
@@ -14,7 +15,7 @@ function CustomNavbar({ Fx }) {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Button variant="outline-success">Organismes</Button>
+        <Link to="/OrgPlat"> Organismes</Link>
         <Button variant="outline-success">Encadrants</Button>
         <Button variant="outline-success">Étudiants</Button>
         <Navbar.Toggle aria-controls="navbarScroll" />
