@@ -1,0 +1,13 @@
+.ButtonStatus01 {
+    background-color: #e26868;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ButtonStatus02 {
+    background-color: #829460;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
